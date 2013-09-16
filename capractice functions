@@ -1,0 +1,12 @@
+def cube(n):
+     n**3
+
+def by_three(n):
+    if  n%3 == 0:
+        cube(n)
+    else:
+         return False
+    
+print cube(3)
+print by_three(9)
+print by_three(7)
